@@ -22,7 +22,7 @@ function drawBorder($width, $y) {
 
 
 for($y = 0; $y <= $width; $y++ ) {
-    if ($y === 0 || $y < $height)  drawBorder($width, $y);
+    if ($y === 0 || $y < $height)  drawBorder($width, $y); 
 }
 
 for ($x = 0; $x <= $width; $x++) {

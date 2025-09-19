@@ -16,7 +16,7 @@ function drawBorder($width) {
 function drawCenter($width) {
      for($x=0; $x < $width; $x++){
         if( $x === 0 || $x === $width - 1 ) echo "|";
-        else echo "&nbsp";
+        else echo "&nbsp;";
     }
     echo "<br/>";
 }

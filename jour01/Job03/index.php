@@ -39,7 +39,7 @@ $floatVar = 2.15;
             <tr>
                 <td>string</td>
                 <td>fullName</td>
-                <td><?php echo htmlspecialchars($fullName);?></td>
+                <td><?php echo $fullName;?></td>
             </tr>
             
     </tbody>

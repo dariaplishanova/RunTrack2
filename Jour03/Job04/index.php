@@ -12,3 +12,11 @@ function ft_strlen($str) {
 }
 
 echo "Number of the characters: " . strlen($str);
+
+
+// $str= "Dans l'espace, personne ne vous entend crier";
+//  $i = 0;
+//  while (isset($str[$i])) {
+    //  $i++;
+    // }
+    // echo $i;
